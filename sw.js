@@ -37,7 +37,6 @@ self.addEventListener('install', (event) => {
                 path + 'images/icons/android-launchericon-144-144.png',
                 path + 'images/icons/android-launchericon-192-192.png',
                 path + 'images/icons/android-launchericon-512-512.png',
-                path + '',
             ]);
         });
     const promeInmutable = caches.open(CACHE_INMUTABLE_NAME)
